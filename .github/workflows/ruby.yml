@@ -28,5 +28,7 @@ jobs:
         ruby-version: '3.0' # Update this to match your Ruby version
     - name: Install dependencies
       run: bundle install
+    - name: Install Bundler
+      run: gem install bundler -v '~> 2.3'  
     - name: Run tests
       run: bundle exec rspec # Or the command to run your tests
