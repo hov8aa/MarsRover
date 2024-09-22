@@ -60,6 +60,7 @@ class Move
 # Public method to display the rover's final position and direction
 def display_position
     puts "#{@x} #{@y} #{@direction}"
+    puts "thank you for playing"
 end
 
 end
