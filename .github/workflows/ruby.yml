@@ -29,11 +29,17 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0' # Update this to match your Ruby version
+    - name: Check Ruby version
+      run: ruby -v
+
     - name: Install dependencies
       run: bundle install
+
     - name: Install Bundler
       run: gem install bundler -v '~> 2.3'  
+
     - name: Clear Bundler cache
       run: bundle clean --force
+
     - name: Run tests
       run: bundle exec rspec # Or the command to run your tests
