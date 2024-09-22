@@ -30,5 +30,7 @@ jobs:
       run: bundle install
     - name: Install Bundler
       run: gem install bundler -v '~> 2.3'  
+    - name: Clear Bundler cache
+      run: bundle clean --force
     - name: Run tests
       run: bundle exec rspec # Or the command to run your tests
