@@ -6,4 +6,7 @@ RSpec.describe 'Move' do
         move.run_commands('LMLMLMLMM') # Series of instructions
         expect(move.position).to eq([1,3,'N']) # Final expected git puposition
     end
+
+    
+
 end    
