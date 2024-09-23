@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["hov8aa"]
   spec.email = ["hov8aa@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Testing my first Git Actions Integration."
+  spec.description = "Testing my first Git Actions Integration to learn the basics"
   spec.homepage = "https://github.com/hov8aa/MarsRover/"
   spec.required_ruby_version = ">= 2.6.0"
 
