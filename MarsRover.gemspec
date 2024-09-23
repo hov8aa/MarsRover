@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/hov8aa/MarsRover/"
   spec.required_ruby_version = ">= 2.6.0"
 
-#  spec.metadata["allowed_push_host"] = "https://rubygems.org'"
-  spec.allowed_push_host = ["https://rubygems.org", "https://rubygems.pkg.github.com/hov8aa"]
+  spec.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/hov8aa"
+ # spec.allowed_push_host = ["https://rubygems.org", "https://rubygems.pkg.github.com/hov8aa"]
 
 
   spec.metadata["homepage_uri"] = spec.homepage
