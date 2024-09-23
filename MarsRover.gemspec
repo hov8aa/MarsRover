@@ -3,7 +3,7 @@
 require_relative "lib/MarsRover/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "MarsRover"
+  spec.name = "marsrover"
   spec.version = MarsRover::VERSION
   spec.authors = ["hov8aa"]
   spec.email = ["hov8aa@gmail.com"]
